@@ -1,0 +1,76 @@
+/** Main */
+.main {
+	background-image: url('../images/title_background.jpg');
+}
+
+/** Helpers */
+.w-100 {
+	width: 100%;
+}
+
+/** Form */
+.form-inline {
+	text-align: center;
+	margin: 20px 0;
+}
+
+/** Headers */
+.main .motto {
+	min-height: 0;
+	margin-top: 0;
+	margin-bottom: 7px;
+}
+
+.main .subscribe .info-text {
+	font-size: 1.4rem;
+}
+
+/** Counter */ 
+.counter-wrap {
+	text-align: center;
+	margin: 40px 0 20px;
+}
+
+#counter{
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+  font-size: 25px;
+	
+}
+
+#counter > div{
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#counter div > span{
+  padding: 10px 12px;
+	border-radius: 10px;
+	background: rgba(0,0,0,.3);
+	display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 480px) {
+	.main .logo.cursive {
+		font-size: 5rem;
+		margin-top: 5rem;
+	}
+
+	.main .motto {
+    margin-bottom: 5px;
+    font-size: 1.9rem;
+    line-height: 1.2;
+	}
+
+	.main .subscribe .info-text {
+    font-size: 1rem;
+	}
+}

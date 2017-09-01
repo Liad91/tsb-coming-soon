@@ -1,0 +1,42 @@
+{
+  "name": "tsb-coming-soon",
+  "version": "1.0.0",
+  "description": "a simple coming soon landing page",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liad91/tsb-coming-soon.git"
+  },
+  "keywords": [
+    "MEAN",
+    "node.js",
+    "mongodb",
+    "express",
+    "angular",
+    "bootstrap",
+    "mailchimp"
+  ],
+  "author": "Liad Idan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Liad91/tsb-coming-soon/issues"
+  },
+  "homepage": "https://github.com/Liad91/tsb-coming-soon",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mailchimp-api": "^2.0.7",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.9",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0"
+  }
+}
